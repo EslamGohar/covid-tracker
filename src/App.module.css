@@ -1,0 +1,26 @@
+body {
+	background-color: rgba(224, 247, 240, 0.5);
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	gap: 1rem;
+}
+
+.image {
+	width: 480px;
+	margin-top: 10px;
+}
+
+@media (max-width: 770px) {
+	.container {
+		margin: 0 10%;
+	}
+
+	.image {
+		width: 100%
+	}
+}
